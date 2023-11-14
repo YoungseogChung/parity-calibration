@@ -1,0 +1,8 @@
+cvxpy
+matplotlib
+numpy
+scikit_learn
+scipy
+setuptools
+tqdm
+uncertainty_toolbox
