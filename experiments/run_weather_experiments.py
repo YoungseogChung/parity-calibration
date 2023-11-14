@@ -191,8 +191,8 @@ if __name__ == "__main__":
 
     parser.add_argument("--offset_beg", type=int, default=0,
                         help="First offset index to run tests at (default: 0)")
-    parser.add_argument("--offset_end", type=int, default=50,
-                        help="Last offset index to run tests at (default: 50)")
+    parser.add_argument("--offset_end", type=int, default=1,
+                        help="Last offset index to run tests at (default: 1), paper ran to 50")
 
     args = parser.parse_args()
 
